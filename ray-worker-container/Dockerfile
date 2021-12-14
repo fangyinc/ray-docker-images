@@ -41,8 +41,7 @@ RUN apt-get update -y \
     && rm -rf /var/lib/apt/lists/* \
     && apt-get clean
 
-RUN $HOME/anaconda3/bin/pip install --no-cache-dir \
-    ipython 
+RUN $HOME/anaconda3/bin/pip install --no-cache-dir ipython 
 
 # ARG RAY_UID=1000
 ARG RAY_GID=100
