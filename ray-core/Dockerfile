@@ -1,0 +1,1 @@
+FROM rayproject/ray:1.9.0-py38-cpu
