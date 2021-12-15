@@ -1,0 +1,1 @@
+docker build -t staneyffer/ray-worker-container:1.9.0-py38-cpu . 
